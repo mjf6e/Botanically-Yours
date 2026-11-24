@@ -7,7 +7,13 @@ A plant propagation and yard gardening club site for St. Petersburg, Florida. Pl
 - **Meetup date, contact links:** open `script.js` and fill in the `CLUB` block at the top. Empty values stay hidden.
 - **Wording and cheat sheet:** edit `index.html`.
 - **Colors and fonts:** change the variables at the top of `style.css`.
-- **Logo:** `logo.svg` is the stamp mark. It is also the browser tab icon.
+
+## Logo files
+
+- `wordmark.svg` is the full logo. The letters are drawn as shapes, so it looks the same everywhere with no font needed. The Y is a sprout and the dot on the i is a leaf.
+- `logo.svg` is the stamp mark with a heart-shaped leaf. It is the browser tab icon and works as a small profile picture.
+
+The wordmark is dark green and meant for light backgrounds.
 
 Use a general area for meetups (for example, "Old Northeast"), not a street address. Send the address to members after they RSVP.
 
