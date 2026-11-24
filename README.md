@@ -10,7 +10,7 @@ A plant propagation and yard gardening club site for St. Petersburg, Florida. Pl
 
 ## Logo files
 
-- `wordmark.svg` is the full logo. The lettering is Fraunces (SemiBold, open license) converted to outlines, so it looks the same everywhere with no font needed. The capital Y is drawn as a tree with branches and spreading roots, and the dot on the i is a leaf.
+- `wordmark.svg` is the full logo. The lettering is Fraunces (SemiBold, open license) converted to outlines, so it looks the same everywhere with no font needed. The capital Y is the regular Fraunces letter in green with a spreading root system growing out of its base, and the dot on the i is a leaf.
 - `logo.svg` is the stamp mark with a heart-shaped leaf. It is the browser tab icon and works as a small profile picture.
 
 The wordmark is dark green and meant for light backgrounds.
