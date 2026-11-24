@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Burg Cuttings</title>
+  <meta name="description" content="A plant propagation and yard gardening club for people in their 20s and early 30s in St. Petersburg, Florida. Swap cuttings, learn to prune, make friends.">
+  <meta property="og:title" content="Burg Cuttings">
+  <meta property="og:description" content="Swap cuttings, learn to propagate, and meet other plant people in St. Pete.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%B1%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="top wrap">
+    <a class="wordmark" href="#">Burg Cuttings</a>
+    <nav aria-label="Main">
+      <a href="#what">What we do</a>
+      <a href="#next">Next meetup</a>
+      <a href="#cheatsheet">Cheat sheet</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <h1>Take a cutting. Leave with a friend.</h1>
+        <p class="lede">Burg Cuttings is a plant propagation and yard gardening club for people in their 20s and early 30s in St. Petersburg. We swap plants, learn how to keep Florida yards alive, and hang out in the shade while we do it.</p>
+        <p class="actions">
+          <a class="btn" href="#join">Join the club</a>
+          <a class="btn ghost" href="#cheatsheet">See the cheat sheet</a>
+        </p>
+      </div>
+
+      <div class="hero-art">
+        <svg viewBox="0 0 360 440" role="img" aria-label="A glass jar of water holding a pothos cutting with white roots growing from its node, in front of a setting sun">
+          <circle cx="180" cy="215" r="150" fill="var(--sun)"/>
+          <!-- leaves -->
+          <path d="M180 92 C128 58 92 104 126 136 C148 154 176 128 180 92 Z" fill="var(--leaf)"/>
+          <path d="M180 118 C232 84 270 128 236 162 C214 178 186 152 180 118 Z" fill="#1F5C39"/>
+          <path d="M180 52 C160 22 132 34 140 58 C146 74 172 70 180 52 Z" fill="var(--leaf)"/>
+          <!-- jar -->
+          <rect x="110" y="150" width="140" height="44" rx="8" fill="#ffffff" fill-opacity=".55" stroke="var(--ink)" stroke-width="4"/>
+          <rect x="60" y="182" width="240" height="228" rx="44" fill="#ffffff" fill-opacity=".45" stroke="var(--ink)" stroke-width="4"/>
+          <rect x="68" y="250" width="224" height="152" rx="38" fill="#5FB3A1" fill-opacity=".75"/>
+          <!-- stem -->
+          <path d="M180 70 C178 130 182 220 180 312" fill="none" stroke="var(--leaf)" stroke-width="7" stroke-linecap="round"/>
+          <!-- roots -->
+          <g fill="none" stroke="#FFF8E7" stroke-width="3.5" stroke-linecap="round">
+            <path class="root" pathLength="1" d="M180 312 C150 330 124 340 112 372"/>
+            <path class="root r2" pathLength="1" d="M180 312 C172 338 156 360 150 392"/>
+            <path class="root r3" pathLength="1" d="M180 312 C186 342 190 366 184 394"/>
+            <path class="root r4" pathLength="1" d="M180 312 C206 332 228 344 238 376"/>
+            <path class="root r5" pathLength="1" d="M180 312 C196 326 214 322 252 330"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="what" class="section">
+      <div class="wrap">
+        <h2>What we do</h2>
+        <dl class="trio">
+          <div>
+            <dt>Cutting swaps</dt>
+            <dd>Bring a cutting, a pup, a seedling, or a pot you have outgrown. Take home something you did not have this morning.</dd>
+          </div>
+          <div>
+            <dt>Yard days</dt>
+            <dd>We rotate through members' yards, work out what is growing there, learn how to prune it, and take cuttings from whatever can spare them.</dd>
+          </div>
+          <div>
+            <dt>ID walks</dt>
+            <dd>Easy walks through St. Pete neighborhoods and parks with a plant ID app, a notebook, and a lot of pointing.</dd>
+          </div>
+        </dl>
+        <p class="note">No experience needed. If you have killed a pothos, you are in the right place.</p>
+      </div>
+    </section>
+
+    <section id="next" class="section dark">
+      <div class="wrap">
+        <h2>Next meetup</h2>
+        <div id="meetup" class="meetup" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="cheatsheet" class="section">
+      <div class="wrap">
+        <h2>Propagation cheat sheet</h2>
+        <p class="sub">Easy wins for a Florida yard. Times are rough. Summer heat and humidity speed rooting up, winter slows it down.</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Propagation cheat sheet table">
+          <table>
+            <thead>
+              <tr><th scope="col">Plant</th><th scope="col">Method</th><th scope="col">Roots in about</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Pothos, philodendron</th><td>Stem cutting with at least one node, in water or damp mix</td><td>2 to 4 weeks</td></tr>
+              <tr><th scope="row">Coleus</th><td>Tip cutting in water, lower leaves stripped</td><td>1 to 2 weeks</td></tr>
+              <tr><th scope="row">Pentas</th><td>Tip cutting in moist potting mix</td><td>2 to 4 weeks</td></tr>
+              <tr><th scope="row">Spider plant</th><td>Pin a plantlet into soil while it is still attached, or set it in water</td><td>1 to 3 weeks</td></tr>
+              <tr><th scope="row">Snake plant</th><td>Divide the rhizomes (instant), or root leaf sections in soil (slow)</td><td>Division is immediate, leaf sections take months</td></tr>
+              <tr><th scope="row">Bromeliad</th><td>Cut off pups once they reach about a third of the parent's size</td><td>Several weeks</td></tr>
+              <tr><th scope="row">Plumeria</th><td>Let the cut end dry for a few days, then plant in fast-draining mix and go easy on water</td><td>Several weeks to a few months</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Safety note: wear gloves around oleander and sago palm. Oleander sap is toxic, and sago palm seeds and leaves are dangerous to dogs. Both are common in older St. Pete yards.</p>
+        <p class="note">Not sure what is growing in your yard? Bring a leaf to a meetup.</p>
+      </div>
+    </section>
+
+    <section id="join" class="section join">
+      <div class="wrap">
+        <h2>Join the club</h2>
+        <p class="sub">It is free. Show up with a plant or without one. Meetup addresses go to members only.</p>
+        <div id="join-links" class="actions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p>Burg Cuttings, St. Petersburg, Florida. <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
