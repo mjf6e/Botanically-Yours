@@ -1,0 +1,13 @@
+{
+  "name": "Botanically Yours",
+  "short_name": "Botanically Yours",
+  "description": "A plant propagation and yard gardening club in St. Petersburg, Florida.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#E3F1EC",
+  "theme_color": "#E3F1EC",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
