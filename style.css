@@ -55,8 +55,8 @@ a { color: inherit; }
   gap: .75rem 2rem;
   padding-block: 1.25rem;
 }
-.wordmark { display: inline-block; line-height: 0; }
-.wordmark img { display: block; height: 40px; width: auto; }
+.wordmark { display: inline-block; line-height: 0; max-width: 100%; }
+.wordmark img { display: block; height: 36px; width: auto; max-width: 100%; }
 .top nav { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; }
 .top nav a { text-decoration: none; font-weight: 500; padding-block: .25rem; }
 .top nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
